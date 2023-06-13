@@ -83,25 +83,25 @@ class HomePageState extends State<HomePage> {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.all(50),  // creates a space of 5 pixels
+              padding: const EdgeInsets.all(50),
               child: _game.isGameOver() ?
               SizedBox(
-                width: double.infinity,  // makes the button as wide as its parent allows
+                width: double.infinity,
                 child: TextButton(
                   style: TextButton.styleFrom(
                     backgroundColor: Colors.blue,
-                    padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 20),  // increase the size of the button
+                    padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 20),
                   ),
                   onPressed: resetGame,
                   child: const Text(
                     'Reset',
                     style: TextStyle(
                       color: Colors.white,
-                      fontSize: 24,  // increase the font size
+                      fontSize: 24,
                     ),
                   ),
                 ),
-              ) : const SizedBox.shrink(),  // if game is not over, render an empty box
+              ) : const SizedBox.shrink(),
             ),
           ],
         ),
