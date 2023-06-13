@@ -65,7 +65,16 @@ flutter:
 
   assets:
     - assets/users.json
-
+    - images/hidden_card.jpeg
+    - images/cat1.jpeg
+    - images/cat2.jpeg
+    - images/chicken1.jpeg
+    - images/chicken2.jpeg
+    - images/dog1.jpeg
+    - images/dog2.jpeg
+    - images/pic.png
+    - images/pic3.jpg
+    - images/pic4.jpg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
 
